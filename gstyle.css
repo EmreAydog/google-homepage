@@ -1,0 +1,176 @@
+/*Search bar content*/
+
+.search_bar {
+	display: block;
+	height: 40px;
+	border: 1px solid #d9d9d9;
+	border-radius: 1px;
+	max-width: 483px;
+
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.input_bar {
+	background-image:  url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACrElEQVR42u2Xz2sTQRSAX8VSb1K8iNqKooJH2Ux6Ksn+iPQqxZMIehJB0do/IMhmQWsvHr2KSEGk0tSLIoWIYNUKij20F2/N7iaUZnYT0kYzzhMKs0HDJiTdLcwHDwKZSd63781LBiQSSW9JZdkhzfKm1Rz9mjZp/W9YdEU3vXv4HsQZ40FtNG36q5rls//Ej4tmbSS2T15Mvp3ExOPmEMQNbBtMMEyoljcFcQN7PqyAlqNfIG7gYQ0tYNIaxA1MrJPY3wImbUqBKAXSFv0tBSIVMOkvKRDtGKWN/T6FdqRAxFNoWwpEPIXqUqBT6ALU/UVgu8GW4GD3f6f9TRDYNJTDrk7YbtiqUumHwIYoUJuHERDAS0r4CvgFECgbY+cFAR7KT+g1POmCKFDNw6WggHc3fBtVb4CAoyauBgXIG+g1Xh5mRAGah6cggBd11fK/h7lOprIs0H6uRl6KAo5O7kOv4QmPiwJ4Jqqv4FiwCtXjvD2+tRmfK6kZ/ygI2HritK0rDVGgrClJ6DWMwYC/AGuCBMYcIC2V0CzvjmbRz3j3xUjn6CfeYreUJ2wQkGD75INPX1mFfsEFrrcIYCvdhC4paWQakxajpJMr0C9YFg54i7AsClRmh9/xnr0NHcInzZStk2aLwAcGMAD9pPIazvFKVDD5rdnhJeHLX5RTyRPQHpz5o66emMc9wdlPtvA8wF7Aq2BUHh1525qEo5JtR1WeOXpickO9cJIpyuD6xJmhYiZ5ytWSl3mlnuOaf+2zDaLDXmJrSgZ/MYVEugo+gSh+FkSBa4yd5Ul87DZ5XpFl/AyIEjzYjkau8WqshU2cr13HPbgX4gJOD97n465GZlyVvC9mSKloKI2iTnbwNT+gBX54H+IaXAtxJzE3ycSAFqSAFJACUkAikXD+AHj5/wx2o5osAAAAAElFTkSuQmCC);
+	background-repeat: no-repeat;
+	background-position: 99% 50%;
+	background-size: 30px 30px;
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+}
+
+
+.btn {
+	display: block;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #757575;
+	padding: 10px;
+	margin-top: 15px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.search {
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	display: inline-block;
+	margin-right: 8px;
+}
+
+.lucky {
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	display: inline-block;
+	margin: 11px 4px;
+}
+
+.search:hover {
+	-webkit-appearance: push-button;
+	cursor: pointer;
+}
+
+.lucky:hover {
+	cursor: pointer;
+	-webkit-appearance: push-button;
+	white-space: pre;
+}
+/*End of search bar content*/
+
+
+
+/*The navigation bar content*/
+
+#navbar {
+	display: block;
+	width: 100%;	
+}
+
+#navbar_content {
+	padding: 7px;
+	min-width: 250px;
+	float: right;
+}
+
+.gmail {
+	display: inline-block;
+}
+
+.images {
+	display: inline-block;
+	padding-left: 15px;
+}
+
+.apps {
+	vertical-align: middle;
+	display: inline-block;
+	padding-left: 10px;
+}
+
+#app_icon {
+	height: 24px;
+	width: 24px;
+	padding: 4px;
+	margin-left: 2px;
+}
+
+.notification {
+	vertical-align: middle;
+	display: inline-block;
+	padding-left: 12px;
+}
+
+#notification_icon {
+	height: 20px;
+	width: 20px;
+}
+
+.account {
+	vertical-align: middle;
+	display: inline-block;
+	padding-left: 12px;
+}
+
+#account_icon {
+	border-radius: 50%;
+}
+
+/*End of navigation bar content*/
+
+#google_logo {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px;
+}
+
+.main {
+	padding-top: 150px;
+}
+
+body {
+	font-family: arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+
+/*Footer Content*/
+#footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	background: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	line-height: 40px;
+	font-size: small;
+	display: block;
+
+}
+
+#footer_l {
+	white-space: nowrap;
+}
+
+#footer_r {
+	float: right;
+	margin-right: 30px;
+	white-space: nowrap;
+}
+
+._gs {
+	margin-left: 27px;
+}
